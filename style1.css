@@ -1,0 +1,598 @@
+/* BODY SECTION */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* NAVBAR SECTION*/
+.navbar {
+  background-color: rgba(0, 0, 0, 0.306);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+}
+
+.logo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 0px 4px;
+  border: 2px solid white;
+  border-radius: 34px;
+  border-style: groove;
+  box-shadow: 2px 2px 5px black;
+}
+
+.navlist {
+  display: flex;
+}
+
+ul {
+  width: 70%;
+}
+
+.navlist li {
+  list-style: none;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navlist li a {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 5px;
+  margin-left: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.navlist li a:hover {
+  text-align: center;
+  align-items: center;
+  position: relative;
+  color: rgb(255, 206, 206);
+  text-shadow: 2px 2px 5px black;
+  transition: 0.50s;
+  cursor: pointer;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+/* ID SEARCH SECTION*/
+
+#search {
+  margin: 0px 20px;
+  border: 2px solid;
+  border-style: groove;
+  border-radius: 14px;
+  padding: 4px 6px;
+  font-size: 14px;
+  display: none;
+}
+
+#search1 {
+  width: 30%;
+}
+
+/* ID BUTTON SECTION */
+#button {
+  padding: 4px 12px;
+  border: 3px solid;
+  border-radius: 5px;
+  border-style: groove;
+  cursor: pointer;
+  display: none;
+}
+
+/* JUSTIFY CONTENT SECTION */
+.content {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+/* NAVBAR BACKGROUND SECTION */
+
+.background {
+  background-image: url(..//img/walls/2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  margin-top: -85px;
+}
+
+.anim {
+  border-style: groove;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url(..//img/walls/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jpg{
+  border-style: groove;
+  height: 200px;
+  background-image: url(..//bgwall2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jpg h1{
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 62px;
+  text-shadow: 3px 3px 10px;
+}
+
+/* HEADING SECTION  */
+
+.heading {
+  border-style: groove;
+  margin: -4px;
+  background-image: url(..//bgwall2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 0px;
+  padding: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 53px;
+  letter-spacing: 6px;
+  word-spacing: 8px;
+  background-color: #e8e8e8c9;
+  text-shadow: 4px 3px 6px;
+}
+
+
+
+/* IMAGES SECTION  */
+
+.images {
+  display: flex;
+  margin-top: 15px;
+}
+
+.images div a button{
+  padding: 5px 20px;
+  font-size: 15px;
+  border: 1px solid grey;
+  font-family: cursive;
+  background-color: DodgerBlue;
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 5px black;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.looks {
+  width: 270px;
+  height: 270px;
+  border-radius: 10px;
+  border: 3px solid rgb(184, 175, 175);
+  margin: 42px;
+  background-size: cover;
+}
+
+.looks:hover {
+  cursor: pointer;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+.underline {
+  background-color: #e8e8e8c9;
+  border-style: groove;
+  border-bottom: 0px;
+}
+
+.underline img {
+  width: 672px;
+  height: 80px;
+  margin-left: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+/* * {box-sizing:border-box} */
+
+/* Slideshow container */
+.slidshow {
+  width: 100%;
+  overflow: hidden;
+  height: 634px;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  height: 644px;
+  border-style: groove;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.fade img {
+  background-attachment: fixed;
+  background-color: #ffffffe4;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.fade:hover {
+  background-color: #ffffffe3;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* FOOTER SECTION */
+#footer {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.892);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* RESPONSIVE SECTION */
+
+
+@media only screen and (max-width: 1100px){
+  .underline{
+    display: none;
+  }
+  .heading{
+    padding: 10px;
+    font-size: 43px;
+    letter-spacing: 4px;
+  }
+  .looks{
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+  }
+  #footer{
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-size: 25px;
+  }
+  .navlist li a {
+    margin-left: 25px;
+    font-size: 16px;
+}
+ul{
+  width: 100%;
+}
+/* #search{
+  display: none;
+} */
+#search1{
+  width: 36%;
+}
+.background{
+  background-attachment: scroll;
+}
+/* #button{
+  display: none;
+} */
+
+.jpg{
+  height: 100px;
+}
+.jpg h1{
+  margin-top: 29px;
+  font-size: 40px;
+}
+}
+
+@media only screen and (max-width: 958px){
+  /* .navbar{
+    display: none;
+  } */
+  .logo{
+    width: 40px;
+  height: 40px;
+  }
+  .navlist{
+    display: block;
+  }
+  .navlist li a{
+    margin-left: 8px;
+    font-size: 12px;
+  }
+  .anim{
+    background-attachment: scroll;
+  }
+  .fade img {
+    background-attachment: scroll;
+    height: 100%;
+  }
+  .jpg{
+    background-attachment: scroll;
+  }
+  /* .jpg h1{
+    width: 406px;
+  } */
+  .prev,
+.next{
+  margin-top: -21px;
+  padding: 11px;
+  color: rgb(255 255 255);
+}
+.slideshow-container {
+  height: 238px;
+}
+.slidshow {
+  height: 244px;
+}
+.images {
+  display: block;
+}
+.images div a button {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+#button{
+  display: none;
+}
+#search{
+  display: none;
+}
+.heading{
+  font-size: 25px;
+}
+
+/* MOBILE SMARTPHONES */
+/* BURGER MENU BAR  */
+
+#menu {
+  z-index: 2;
+}
+
+#menu-bar {
+  width: 37px;
+  height: 40px;
+  margin: 18px 0 0px 10px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 2px;
+  margin: 4px;
+  width: 86%;
+  background-color: #ffffff;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.nav {
+  transition: 0.3s ease;
+  display: none;
+}
+
+.nav ul {
+  padding: 0 12px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.nav li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.menu-bg, #menu {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, #0571dc, #0571dc);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%,-30%);
+}
+.navbar{
+  background-color: #ffe4c400;
+  margin: -12px;
+}
+.logo{
+  display: none;
+}
+.background{
+  background-position: left;
+}
+}
